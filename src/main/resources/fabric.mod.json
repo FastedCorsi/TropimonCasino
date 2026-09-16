@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tropimon_casino",
+  "version": "${version}",
+  "name": "Tropimon Casino",
+  "description": "Casino virtuel Tropimon inspiré de Cobblemon, avec machine à sous et économie directe en Poké Dollars.",
+  "authors": ["By FastedCorsi"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.tropimon.casino.TropimonCasinoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.1",
+    "fabric-api": ">=0.116.6+1.21.1",
+    "cobblemon": ">=1.7.2",
+    "java": ">=21"
+  }
+}
